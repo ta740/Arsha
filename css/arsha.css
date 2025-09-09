@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Poppins;
+margin: 0;
+padding: 0;
+}
+body{
+ width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+   
+}
+.container-fluid {
+    margin-top: 2%;
+}
+
+/* Brand link */
+.nav-links {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navbar background */
+.navbar {
+    background-color: #a1b3d1;
+    transition: background-color 0.3s; /* smooth transition on scroll */
+}
+
+/* Center navbar menu */
+.navbar-nav {
+    margin: 0 auto; /* center the links */
+    display: flex;
+    justify-content: center; /* horizontally center links */
+    align-items: center;
+    flex-wrap: wrap; /* wrap for mobile */
+}
+
+/* Nav item links */
+.nav-item a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: black; /* hover color */
+}
+
+/* Button styling */
+.btn {
+    background-color: #429bf5;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1a7ed0;
+    color: white;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .btn {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Optional: navbar background change on scroll */
+.navbar.scrolled {
+    background-color: #a1b3d1 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* =======arsha css =========== */
+.Container-fluid{
+    width: 100%;
+    background-color: #37517e;
+    padding-top: 100px;
+}
+.ctxt{
+margin-left: 15%;
+font-family: Poppins;
+color: #e8eaed;
+font-size:50px;
+}
+p{
+   margin-left: 100px;
+   font-size: 20px;
+   font-family: Poppins;
+   font-weight: bold;
+   color: #bec4cf;
+}
+.bt{
+  margin-left: 100px;
+  background: none;
+  background-color: #429bf5;
+  border-radius: 25px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  font-size: 18px;
+  color: white;
+
+}
+.btt i{
+    color: white;
+    font-size: 30px;
+}
+.btt{
+   margin-left: 50px;
+    background: none;
+font-size: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+img{
+    width: 90%;
+    margin-top: 40px;
+}
+/* =======next part start code start======== */
+.image-code {
+    display: flex;
+    justify-content: center;
+    
+}
+.image-code img{
+    width: 10%;
+    padding-left: 30px;
+
+    /* margin-left: 30px; */
+}
+/* =====about code css==== */
+h2{
+  color: #37517e;
+  padding-top: 50px;
+ text-align: center;
+ font-family: Poppins;
+ font-weight: 700;
+}
+.fa-regular{
+    color: #429bf5;
+}
+
+.pp{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+.but{
+    margin-left: 100px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #429bf5;
+    color: #429bf5;
+    background-color: white;
+}
+/* ========faq========== */
+.accordion-button{
+    margin-top: -2rem;
+}
+span{
+    color: #429bf5;
+    font-weight: bold;
+}
+.container-fluid{
+    color: #e8eaed;
+}
+h3{
+    color: #37517e;
+}
+b{
+    color: #37517e;
+}
+article{
+    color: black;
+    justify-content: center;
+}
+.accordion-button
+/* ====first session==== */
+h3{
+    margin-top: 100px;
+}
+/* =====second seesion code css========= */
+.skill{
+    display: flex;
+}
+.left h5{
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+ .ri{
+margin-left: 70%;
+text-align: right;
+}
+.ri h6{
+    text-align: right;
+color: #37517e;
+} 
+.skill-text{
+    margin-top: 100px;
+} 
+.skill-img img {
+    margin-top: 80px;
+}
+/* ====services code css==== */
+/* Service Text Styles */
+.ser-text h4 {
+    text-align: center;
+    color: #37517e;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.ser-text p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+hr {
+    width: 150px;
+    margin: 0 auto;  /* Center hr horizontally */
+    line-height: 20px;
+    border: 1px solid #429bf5;
+}
+
+/* Card Styles */
+.card {
+    height: 300px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Softer shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Hover shadow effect */
+}
+
+.card i {
+    color: #429bf5;
+    font-size: 40px;
+    display: block;
+    text-align: center;  /* Center the icon */
+    margin-bottom: 10px;
+}
+
+.card h6 {
+    text-align: center;  /* Center the heading */
+    margin-top: 10px;
+    font-weight: bold;
+    color: #37517e;
+}
+
+.card-txt {
+    padding: 10px 20px;  /* Adjust padding */
+    text-align: justify;
+}
+
+.card-txt p {
+    font-size: 12px;
+    margin: 0;  /* Remove margin to avoid overflow */
+    color: #333;
+}
+
+/* Container and Responsive Design */
+.container {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;  /* Add spacing between cards on smaller screens */
+    }
+}
+
+/* =======call to action css===== */
+.cta-section {
+    background: url('../images/cta-bg.jpg') no-repeat center center/cover;
+    height: 400px;  /* Adjust as needed */
+    /* position: relative;
+    padding: 50px 0; */
+    background-color: rgba(0, 0, 0, 0.5); /* Fallback if image doesn't load */
+    background-blend-mode: overlay;
+}
+
+/* Call-to-Action Heading */
+.cta-heading {
+    font-size:50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Call-to-Action Text */
+.cta-text {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 30px; /* Center the text and add margin at the bottom */
+}
+
+/* Button Styling */
+.cta-btn {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+/* Hover effect for button */
+.cta-btn:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+/* =====portfoilio css======== */
+.portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+.portfolio hr{
+    margin-bottom: 20px;
+    width: 20%;
+   border-color: #429bf5;
+}
+.portfolio h1 {
+    font-weight: bold;
+}
+
+.portfolio p {
+    color: #6c757d;
+}
+
+.portfolio .filters {
+    margin-bottom: 30px;
+}
+
+.portfolio .filters .btn {
+    margin: 0 10px;
+}
+
+.portfolio .grid-item {
+    margin-bottom: -5px;
+}
+.portfolio .grid-items{
+    margin-bottom: 5rem;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* ======team code start====== */
+.team-txt{
+    text-align: center;
+    color: #37517e;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.team-card{
+    box-shadow: 0 8px 8px rgba(80, 79, 79, 0.1);
+    border-radius: 10px;
+height: 110%; 
+display: flex;
+transition: transform 0.3s ease;
+}
+.team-card:hover{
+    transform: translateY(-5px);
+
+}
+.team-img{
+    width: 25%;
+    margin-left:20px;
+}
+.team-info h4{
+font-size: 20px;
+}
+.sp-txt{
+color: black;
+font-size: 15px;
+}
+article{
+    font-size: 14px;
+    color: #7f8c8d;
+}
+.social-icon a i{
+    margin: 8px;
+
+}
+.social-icons a:hover{
+    color: #3498db;
+}
+/* ======price code==== */
+.price-card{
+    width: 100%;
+    height: 520px;
+ margin-top: 50px; 
+    box-shadow: 0 10px 10px rgba(80, 79, 79, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+ul li {
+list-style-type: none;
+padding: 10px;
+}
+.bi{
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.txt{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 50px;
+}
+/*=============== Testmoinal css============== */
+
+.carousel-control-prev{
+    background-color: #37517e;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 150px;
+}
+.carousel-control-next{
+    background-color: #37517e;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 150px;
+
+}
+.testmonial img{
+    width: 15%;
+    margin-left:35%;
+}
+.test_txt{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 22px;
+    font-weight: bolder;
+}
+h6{
+    text-align: center;
+}
+.stars{
+    justify-content: center;
+    align-items: center;
+    margin-left: 47%;
+    color: yellow;
+    font-size: 20px;
+}
+/* ===== Ask Question */
+.biq{
+    color: #429bf5;
+    font-size: 20px;
+}
+.fq-text{
+    font-size: 10px;
+}
+/* ===contact=== */
+.section-title h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+.info-wrap {
+    padding: 2rem;
+    border-top: 3px solid  #3498db;
+    border-bottom: 3px solid  #3498db ;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.info-item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.info-item i {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-right: 10px;
+}
+.info-txt h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+}
+.info-txt p {
+    margin: 0;
+    color: #666;
+}
+.contact-form {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid  #3498db ;
+    border-bottom: 3px solid  #3498db ;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #555;
+}
+.form-control {
+    border-radius: 0.3rem;
+}
+.send-btn {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.send-btn:hover {
+    background-color: #46b8da;
+}
+/*==== join newsletter code css===== */
+
+
+.newsletter-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newsletter-container h2 {
+    color: #2d3e50;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.newsletter-container p {
+    color: #6b7a8f;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container input[type="email"] {
+    width: 300px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.input-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #36a2d6;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+    background-color: #2d8bb5;
+}
+/* footer */
+.footer-columns{
+    color: #000;
+}
+.footer-links h4{
+ font-size: 25px;
+}
+ul li a{
+    text-decoration: none;
+}
+.footer-links article{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.social-links i{
+    padding: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7a8f;
+    margin-top: 20px;
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+}
+
+.footer-bottom a {
+    color: #36a2d6;
+    text-decoration: none;
+}
+.text-secondary{
+    font-size: 11px;
+    
+}
+.bis{
+    color: #3498db;
+}
